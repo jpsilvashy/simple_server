@@ -6,7 +6,7 @@
 
     sudo curl https://raw.github.com/jpsilvashy/simple_server/master/install.sh | sh
 
-![install](https://img.skitch.com/20120228-xxprjxx336jqr4t4cae9ha47g9.jpg "Installing")
+![install](https://img.skitch.com/20120228-qrbp5kmi6ab3fjaik9u7p5qw7q.jpg "Installing")
 
 Enter your password and you'll have access to `simple_server` from anywhere.
 
