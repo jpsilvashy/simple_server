@@ -18,7 +18,7 @@
   cd "$SS_ROOT"
 
 # Download latest script
-  curl -s https://raw.github.com/gist/1930803/c5b9b6d6579701e2c376f84d5073d8367001bc9e/simple_server.rb > simple_server
+  curl -s https://raw.github.com/jpsilvashy/simple_server/master/simple_server
   chmod a+x simple_server
 
 # Link to location in users PATH
