@@ -1,6 +1,6 @@
 # Simple Server
 
-`simple_server` is an interface for WEBrick](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/webrick/rdoc/index.html) ruby server. It allows for serving static files by running the server in any directory. Useful for writing plain HTML websites. Direct your browser to `http://localhost:8000` to see the directory served with WEBrick.
+`simple_server` is an interface for [WEBrick](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/webrick/rdoc/index.html) ruby server. It allows for serving static files by running the server in any directory. Useful for writing plain HTML websites. Direct your browser to `http://localhost:8000` to see the directory served with WEBrick.
 
 ### Installing Simple Server
 
@@ -8,7 +8,7 @@
 
 Enter your password and you'll have access to `simple_server` from anywhere.
 
-## Usage
+### Usage
 
 `cd` to your working directory
 
