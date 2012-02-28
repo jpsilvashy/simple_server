@@ -1,7 +1,7 @@
 #!/bin/sh
 #
 #    Install Simple Server by running this command:
-#    curl https://raw.github.com/gist/1930743/c5b9b6d6579701e2c376f84d5073d8367001bc9e/install.rb | sh
+#    curl https://raw.github.com/jpsilvashy/simple_server/master/install.sh | sh
 #
 
 # Set up the environment. Respect $VERSION if it's set.
@@ -20,7 +20,7 @@
   curl -s https://raw.github.com/gist/1930803/c5b9b6d6579701e2c376f84d5073d8367001bc9e/simple_server.rb > simple_server
   chmod a+x simple_server
 
-  sudo ln -s "$SS_ROOT/bin/simple_server" /usr/local/bin
+  sudo ln -sfn "$SS_ROOT/bin/simple_server" /usr/local/bin
 
 # All done!
 
