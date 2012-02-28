@@ -18,5 +18,10 @@ Then run
 
 You should see:
 
+    *** Starting WEBrick with Simple Server
+    *** Stop WEBrick with ctrl+c
+    [2012-02-28 01:04:31] INFO  WEBrick 1.3.1
+    [2012-02-28 01:04:31] INFO  ruby 1.9.2 (2011-02-18) [x86_64-darwin10.7.4]
+    [2012-02-28 01:04:31] INFO  WEBrick::HTTPServer#start: pid=11068 port=8000
 
 Go to `http://localhost:8000` in your browser.
