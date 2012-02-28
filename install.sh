@@ -8,19 +8,19 @@
 
   set -e
   SS_ROOT="/usr/local/sbin/simple_server"
-  SS_BIN="$POW_ROOT/bin/simple_server"
+  SS_BIN="$SS_ROOT/simple_server"
   [[ -z "$VERSION" ]] && VERSION=0.0.1
 
   echo "*** Installing Simple Server $VERSION..."
 
+  rm -fr "$SS_BIN"
   mkdir -p "$SS_ROOT"
-  mkdir -p "$SS_ROOT/bin"
 
   cd "$SS_ROOT/bin"
   curl -s https://raw.github.com/gist/1930803/c5b9b6d6579701e2c376f84d5073d8367001bc9e/simple_server.rb > simple_server
   chmod a+x simple_server
 
-  sudo ln -sfn "$SS_ROOT/bin/simple_server" /usr/local/bin
+  sudo ln -sfn "$SS_BIN" /usr/local/bin
 
 # All done!
 
