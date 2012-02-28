@@ -1,0 +1,15 @@
+#! /usr/bin/env ruby
+require 'rubygems'
+require 'webrick'
+
+root = File.absolute_path(".")
+
+puts "*** Starting WEBrick with Simple Server"
+puts "*** Stop WEBrick with ctrl+c"
+
+server = WEBrick::HTTPServer.new :Port => 8000, :DocumentRoot => root
+
+# catch int and shutdown
+trap 'INT' do server.shutdown end
+
+server.start
